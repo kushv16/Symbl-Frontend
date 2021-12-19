@@ -17,23 +17,23 @@ const CodeSnippet = (props) => {
         switch(props.language) {
             case "python":   return <div>
                     <Image src = {PythonSnippet} />;
-                    <ButtonGroup code = {"https://github.com/kushv16/Symbl_API/tree/master/Python"} />
+                    <ButtonGroup code = {"https://github.com/kushv16/Symbl-SourceCode/tree/master/Python"} />
                 </div>                
             case "javascript":   return <div>
                     <Image src = {JavascriptSnippet} />;
-                    <ButtonGroup code = {"https://github.com/kushv16/Symbl_API/tree/master/Javascript"}/>
+                    <ButtonGroup code = {"https://github.com/kushv16/Symbl-SourceCode/tree/master/Javascript"}/>
                 </div>
             case "curl": return <div>
                     <Image src = {CurlSnippet} />;
-                    <ButtonGroup code = {"https://github.com/kushv16/Symbl_API/tree/master/cURL"}/>
+                    <ButtonGroup code = {"https://github.com/kushv16/Symbl-SourceCode/tree/master/cURL"}/>
                 </div>
             case "nodejs":  return <div>
                     <Image src = {NodeJSSnippet} />;
-                    <ButtonGroup code = {"https://github.com/kushv16/Symbl_API/tree/master/NodeJS"}/>
+                    <ButtonGroup code = {"https://github.com/kushv16/Symbl-SourceCode/tree/master/NodeJS"}/>
                 </div>
             default:  return <div>
                     <Image src = {CurlSnippet} />;
-                    <ButtonGroup code = {"https://github.com/kushv16/Symbl_API/tree/master/cURL"}/>
+                    <ButtonGroup code = {"https://github.com/kushv16/Symbl-SourceCode/tree/master/cURL"}/>
                 </div>
           }
     }

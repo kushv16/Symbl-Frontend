@@ -34,7 +34,7 @@ const ButtonGroup = (props) => {
             <Button href={props.code} target="_blank">
                 Source Code
             </Button>
-            <Button href= "https://docs.google.com/document/d/15Sd1iXj3zHWB3gin7uQkFGhU9jrtwX-2_h3kfxh3X6g/edit?usp=sharing" target ="_blank">
+            <Button href= "https://drive.google.com/file/d/1FaTjgFDJlDCRXaV77se9HKS_Kve6hsBj/view?usp=sharing" target ="_blank">
                 Output Screenshots
             </Button>
         </ButtonDiv>
